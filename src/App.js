@@ -18,16 +18,24 @@ let business = {
   reviewCount: 90
 };
 
+//This is an array of the objects above the array is passed to businesslist.js
 const businesses = [business, business, business, business, business, business];
 
-function App() {
-  return (
-    <div className="App">
-      <h1>ravenous</h1>
-      <SearchBar />
-      <BusinessList businesses={businesses} />
-    </div>
-  );
+class App extends React.Component {
+  //Parameters are what we will send to the yelpAPI
+  searchYelp(term, location, sortBy) {
+    console.log("You are searching for ${term}, ${location}, and ${sortBy}");
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Ravenous</h1>
+        <searchBar searchYelp={this.searchYelp} />
+        <BusinessList businesses={businesses} />
+      </div>
+    );
+  }
 }
 
 export default App;
