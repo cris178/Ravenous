@@ -8,7 +8,8 @@ class BusinessList extends React.Component {
       //Here we take the array get the individual objects and map them to a Business component and pass the individual object to the component
       <div className="BusinessList">
         {this.props.businesses.map(business => {
-          return <Business business={business} />;
+          //Every list item rendered by a React component needs to have a unique key,
+          return <Business business={business} key={business.id} />;
         })}
       </div>
     );
