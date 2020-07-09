@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 
-import BusinessList from "../BusinessList/BusinessList";
-import SearchBar from "../SearchBar/SearchBar";
-import Yelp from "../../util/Yelp";
+import BusinessList from "./components/BusinessList/BusinessList";
+import SearchBar from "./components/SearchBar/SearchBar";
+import Yelp from "./util/Yelp";
 
 /*
 const business = {
@@ -18,6 +18,7 @@ const business = {
   rating: 4.5,
   reviewCount: 90
 };
+
 //This is an array of the objects above the array is passed to businesslist.js
 const businesses = [business, business, business, business, business, business];
 */
