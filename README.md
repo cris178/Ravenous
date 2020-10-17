@@ -1,10 +1,10 @@
 # Ravenous
 
+![Imgur](https://i.imgur.com/a14ptkX.png)
+
 [Ravenous App](https://ravenous-3c955.firebaseapp.com/)
 
-Looking for food in your area? Try Ravenous!
-
-Ravenous is a 🍕 Yelp clone built using React. Just enter the restaurant or food you want to eat along with your city and state and browse the selection of local food spots. The web app uses the Yelp API and features a responsive design for mobile support. 
+Ravenous is a react app that helps you locate food in your area. Using the Yelp API, the app will locate fast food restaurants along with their rating. It's a simple app with a responsive design for those looking to use the app on the go. 
 
 
 
